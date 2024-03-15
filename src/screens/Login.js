@@ -10,6 +10,7 @@ export default function Login() {
   const [passoword, setPassoword] = useState("");
   const navigation = useNavigation();
   const credentialsEmail = "aluno@senai.com.br";
+  
   const credentialsPassword = "aluno123";
   const [error, setError] = useState("")
 
